@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         </h1>
         <navbar className={[styles.navbar, styles.navbar_expand_lg].join(" ")}>
           <div className={styles.nav_link}>
-            <a href="/"> Halo Dunia </a>
+            <Link href="/"> Halo Dunia </Link>
           </div>
         </navbar>
         <p className={styles.description}> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
