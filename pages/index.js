@@ -15,7 +15,9 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <navbar className={[styles.navbar, styles.navbar_expand_lg].join(" ")}>
-          <div className={styles.nav_link} href="/"> Halo Dunia </div>
+          <div className={styles.nav_link}>
+            <a href="/"> Halo Dunia </a>
+          </div>
         </navbar>
         <p className={styles.description}> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
 
