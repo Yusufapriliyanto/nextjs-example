@@ -6,3 +6,7 @@
   background-color: #00fff2;
   gap: 50px;
 }
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
