@@ -23,14 +23,20 @@ export default function Home() {
               <li className="nav-item">
                 <a className="nav-link active ml-3" href="/h2">Halaman Kedua</a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link active ml-3" href="/h3">Halaman Lain</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active ml-3" href="/h4">Halaman Lain</a>
+              </li>
             </ul>
         </div>
       </nav>
 {/* Konten Index*/}
       <p> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
 {/* Footer */}
-      <div className="footer mt-auto py-3 bg-light">
-        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer" className="container">
+      <div className="footer mt-auto py-3 bg-blue">
+        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer" className="nav-item nav-link">
           Powered by{' '}
           <span>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
