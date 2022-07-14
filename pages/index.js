@@ -34,8 +34,8 @@ export default function Home() {
       </nav>
 {/* Konten Index*/}
       <p> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
-      <div className="container" style="background-color: #00fff2;">
-        <div className="row">
+      <div className="container">
+        <div className={styles.baris1}>
           <div className="col"> Ini adalah contoh konten </div>
         </div>
       </div>
