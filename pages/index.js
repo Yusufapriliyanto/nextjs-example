@@ -14,22 +14,22 @@ export default function Home() {
       </Head>
 {/* Header */}
       <h1 className={styles.title}>
-        Welcome to <Linker href="https://nextjs.org">Next.js!</Linker>
+        Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
 {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <Linker className="navbar-brand" href="#">Navbar</Linker>
+          <a className="navbar-brand" href="#">Navbar</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Linker className="nav-link active" aria-current="page" href="/">Home</Linker>
+                <a className="nav-link active" aria-current="page" href="/">Home</a>
               </li>
               <li className="nav-item">
-                <Linker className="nav-link" href="/h2">Link</Linker>
+                <a className="nav-link" href="/h2">Link</a>
               </li>
             </ul>
           </div>
@@ -39,12 +39,12 @@ export default function Home() {
       <p> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
 {/* Footer */}
       <div className="footer mt-auto py-3 bg-light">
-        <Linker href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer" className="container">
+        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer" className="container">
           Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </Linker>
+        </a>
       </div>
     </div>
   )
