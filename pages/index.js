@@ -30,7 +30,7 @@ export default function Home() {
                 <a className="nav-link active ml-3" href="https://nextjs.org/docs/">Dokumentasi NextJS </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="/api/hello">Data Terkait Blog</a>
+                <Linker className="nav-link active ml-3" href="/api/hello">Data Terkait Blog </Linker>
               </li>
             </ul>
         </div>
