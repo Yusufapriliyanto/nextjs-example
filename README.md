@@ -1,3 +1,7 @@
+My First Web Project. You can clone this repository to get the source code
+<br>
+
+Docs from Vercel: <br>
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
