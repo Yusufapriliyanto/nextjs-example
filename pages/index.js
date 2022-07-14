@@ -34,11 +34,9 @@ export default function Home() {
       </nav>
 {/* Konten Index*/}
       <p> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
-      <div className="container">
-        <div className={styles.baris1}>
-          <div className="col"> Ini adalah contoh kolom</div>
-          <div className="col"> Ini adalah kolom 2 </div>
-        </div>
+      <div className={styles.grid_container}>
+        <div className={styles.item1}> Ini adalah contoh kolom</div>
+        <div className={styles.item1}> Ini adalah kolom 2 </div>
       </div>
 {/* Footer */}
       <div className="footer mt-auto py-3 bg-blue">
