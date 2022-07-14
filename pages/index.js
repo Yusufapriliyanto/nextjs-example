@@ -34,6 +34,11 @@ export default function Home() {
       </nav>
 {/* Konten Index*/}
       <p> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
+      <div className="container bg-blue">
+        <div className="row">
+          <div className="col"> Ini adalah contoh konten </div>
+        </div>
+      </div>
 {/* Footer */}
       <div className="footer mt-auto py-3 bg-blue">
         <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer" className="nav-item nav-link">
