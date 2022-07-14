@@ -21,13 +21,16 @@ export default function Home() {
                 <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="/h2">Halaman Kedua</a>
+                <a className="nav-link active ml-3" href="/diary_fiksi">Diary Fiksi</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="/h3">Halaman Lain</a>
+                <a className="nav-link active ml-3" href="/konten_fiksi">Konten Fiksi</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="/h4">Halaman Lain</a>
+                <a className="nav-link active ml-3" href="https://nextjs.org/docs/">Dokumentasi NextJS </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active ml-3" href="/api/hello">Data Terkait Blog</a>
               </li>
             </ul>
         </div>
@@ -35,12 +38,31 @@ export default function Home() {
 {/* Konten Index*/}
       <p> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
       <div className={styles.grid_container}>
-        <div className={styles.item1}> Ini adalah contoh kolom</div>
-        <div className={styles.item1}> Ini adalah kolom 2 </div>
-        <div className={styles.item1}> Ini adalah kolom 3</div>
+        <div className={styles.item1}> Katalog Konten Pilihan </div>
       </div>
+{/* Daftar Konten Fiksi*/}
       <div className={styles.grid_container}>
-        <div className={styles.item1}> Ini adalah kolom 1 baris 2 </div>
+        <div className={styles.item1}> Diary-p1 </div>
+        <div className={styles.item1}> Diary-p2 </div>
+        <div className={styles.item1}> Diary-p3 </div>
+      </div>
+
+      <div className={styles.grid_container}>
+        <div className={styles.item1}> Diary-p4 </div>
+        <div className={styles.item1}> Diary-p5 </div>
+        <div className={styles.item1}> Konten-p1 </div>
+      </div>
+
+      <div className={styles.grid_container}>
+        <div className={styles.item1}> Diary-p6 </div>
+        <div className={styles.item1}> Konten-p2 </div>
+        <div className={styles.item1}> Konten-p3 </div>
+      </div>
+
+      <div className={styles.grid_container}>
+        <div className={styles.item1}> Konten-p4 </div>
+        <div className={styles.item1}> Konten-p5 </div>
+        <div className={styles.item1}> Konten-p6 </div>
       </div>
 {/* Footer */}
       <div className="footer mt-auto py-3 bg-blue">
