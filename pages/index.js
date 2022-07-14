@@ -24,12 +24,12 @@ export default function Home() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav ms-auto mb-2">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                <a className="nav-link active ml-3" aria-current="page" href="#">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/h2">Halaman Kedua</a>
+                <a className="nav-link ml-3" href="/h2">Halaman Kedua</a>
               </li>
             </ul>
           </div>
