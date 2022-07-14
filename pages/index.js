@@ -18,13 +18,16 @@ export default function Home() {
         </h1>
         <navbar className="navbar navbar-expand-lg bg-white">
           <div className="nav-link">
-            <Linker href="/"> Halo Dunia </Linker>
+            <Linker href="/"> Halaman Depan </Linker>
+          </div>
+          <div className="nav-link">
+            <Linker href="/h2"> Halaman Kedua </Linker>
           </div>
         </navbar>
         <p> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
 
       <div className="footer mt-auto py-3 bg-light">
-        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer">
+        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer" className="container">
           Powered by{' '}
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
