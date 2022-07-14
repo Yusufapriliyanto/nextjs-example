@@ -36,7 +36,8 @@ export default function Home() {
       <p> Ini adalah contoh situs yang dibuat menggunakan NextJS</p>
       <div className="container">
         <div className={styles.baris1}>
-          <div className="col"> Ini adalah contoh konten </div>
+          <div className="col"> Ini adalah contoh kolom</div>
+          <div className="col"> Ini adalah kolom 2 </div>
         </div>
       </div>
 {/* Footer */}
