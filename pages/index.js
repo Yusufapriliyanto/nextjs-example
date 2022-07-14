@@ -21,10 +21,10 @@ export default function Home() {
                 <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="/diary_fiksi">Diary Fiksi</a>
+                <Linker className="nav-link active ml-3" href="/diary_fiksi">Diary Fiksi</Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="/konten_fiksi">Konten Fiksi</a>
+                <Linker className="nav-link active ml-3" href="/konten_fiksi">Konten Fiksi</Linker>
               </li>
               <li className="nav-item">
                 <a className="nav-link active ml-3" href="https://nextjs.org/docs/">Dokumentasi NextJS </a>
