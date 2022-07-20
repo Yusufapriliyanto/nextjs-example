@@ -42,27 +42,14 @@ export default function Home() {
       </div>
 {/* Daftar Konten Fiksi*/}
       <div className={styles.grid_container}>
-        <div className={styles.item1}> <a href="/diary_fiksi/p1"> Diary-p1 </a> </div>
-        <div className={styles.item1}> <a href="/diary_fiksi/p2"> Diary-p2 </a> </div>
-        <div className={styles.item1}> <a href="/diary_fiksi/p3"> Diary-p3 </a> </div>
+        <div className={styles.item1}> <Linker href="/diary_fiksi/p1"> Diary-p1 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_fiksi/p2"> Diary-p2 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_fiksi/p3"> Diary-p3 </Linker> </div>
       </div>
-
       <div className={styles.grid_container}>
-        <div className={styles.item1}> <a href="/diary_fiksi/p4"> Diary-p4 </a> </div>
-        <div className={styles.item1}> <a href="/diary_fiksi/p5"> Diary-p5 </a> </div>
-        <div className={styles.item1}> <a href="/konten_fiksi/p1"> Konten-p1 </a> </div>
-      </div>
-
-      <div className={styles.grid_container}>
-        <div className={styles.item1}> <a href="/konten_fiksi/p6"> Diary-p6 </a> </div>
-        <div className={styles.item1}> <a href="/konten_fiksi/p2"> Konten-p2 </a> </div>
-        <div className={styles.item1}> <a href="/konten_fiksi/p3"> Konten-p3 </a> </div>
-      </div>
-
-      <div className={styles.grid_container}>
-        <div className={styles.item1}> <a href="/konten_fiksi/p4"> Konten-p4 </a> </div>
-        <div className={styles.item1}> <a href="/konten_fiksi/p5"> Konten-p5 </a> </div>
-        <div className={styles.item1}> <a href="/konten_fiksi/p6"> Konten-p6 </a> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/p1"> Konten-p1 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/p2"> Konten-p2 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/p3"> Konten-p3 </Linker> </div>
       </div>
 {/* Footer */}
       <div className="footer mt-auto py-3 bg-blue">
