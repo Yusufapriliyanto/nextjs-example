@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-  res.status(200).json(
+  res.json(
     {
       'type':'Bertemu disini ya',
     }
