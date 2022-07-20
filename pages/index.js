@@ -43,7 +43,7 @@ export default function Home() {
 {/* Daftar Konten Fiksi*/}
       <div className={styles.grid_container}>
         <div className={styles.item1}> <a href="/diary_fiksi/p1"> Diary-p1
-            <p> Ini adalah contoh grid <br> Yang dibuat dengan css </p>
+            <p> Ini adalah contoh grid <br> </br> Yang dibuat dengan css </p>
           </a>
         </div>
         <div className={styles.item1}> <a href="/diary_fiksi/p2"> Diary-p2 </a> </div>
