@@ -38,6 +38,7 @@ export default function Home() {
 {/* Konten Fiksi */}
       <h3>Puisi Tak Berjudul #0</h3>
       <h3>Oleh: Yusuf Apriliyanto</h3>
+      <h3>Dibuat pada 0 Januari 0000</h3>
     </div>
   )
 }

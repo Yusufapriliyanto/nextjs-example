@@ -38,6 +38,21 @@ export default function Home() {
 {/* Konten Fiksi */}
       <h3>Puisi Tak Berjudul #1</h3>
       <h3>Oleh: Yusuf Apriliyanto</h3>
+      <h3>Dibuat pada 26 Juli 2022</h3>
+      <p>Di sore hari yang hampir gelap</p>
+      <p>Di kala mentari hendak pergi</p>
+      <p>Hewan pulang ke rumahnya</p>
+      <p>Begitu pula dengan manusia</p>
+      <p></p>
+      <p>Usai sudah hari, berganti dengan malam</p>
+      <p>Kini saatnya istirahat, menikmati hasil</p>
+      <p>Menuai apa yang telah dikerjakan</p>
+      <p>Sedari fajar belum terbit</p>
+      <p></p>
+      <p>Mereka berencana untuk esok hari</p>
+      <p>Sembari larut dalam tidurnya</p>
+      <p>Didalamnya mereka bermimpi</p>
+      <p>Juga meletakkan harapan</p>
     </div>
   )
 }

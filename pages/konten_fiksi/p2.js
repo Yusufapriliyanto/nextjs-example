@@ -38,6 +38,7 @@ export default function Home() {
 {/* Konten Fiksi */}
       <h3>Puisi Tak Berjudul #2</h3>
       <h3>Oleh: Yusuf Apriliyanto</h3>
+      <h3>Dibuat pada 26 Juli 2022</h3>
     </div>
   )
 }

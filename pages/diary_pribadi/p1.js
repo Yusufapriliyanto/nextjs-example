@@ -45,6 +45,7 @@ export default function Home() {
       <p>Sampai pada akhirnya, aku sampai pada sebuah titik. Titik terang dari segalanya. Aku menemukan aljabar, fungsi, integral, limit, dan sekumpulan simbol. Itulah Matematika, cahaya kedua yang aku temukan setelah menemukan Pemograman</p>
       <p>Tapi sebelum cahaya kedua, aku menemukan banyak hal. Sebanyak tetesan hujan, sebanyak tetesan embun. Juga dengan sekumpulan simbol, dan sekumpulan istilah.</p>
       <p>Namun, aku mau cahaya yang lebih banyak. Aku mau seribu cahaya lagi. Atau, satu cahaya yang sebesar sang mentari.</p>
+      <p></p>
       <p>Akhir kata, apakah ada diantara pembaca yang bernama Cahaya, Surya, Mentari, dan Ilmiah? Jika ada, Anda menjadi inspirasi saya hari ini.</p>
     </div>
   )
