@@ -36,6 +36,20 @@ export default function Home() {
         </div>
       </nav>
 {/* Konten Halaman */}
+      <div className={styles.grid_container}>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p1"> Diary-p1 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p2"> Diary-p2 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p3"> Diary-p3 </Linker> </div>
+      </div>
+{/* Footer */}
+      <div className="footer mt-auto py-3 bg-blue">
+        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer" className="nav-item nav-link">
+          Powered by{' '}
+          <span>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
+      </div>
     </div>
   )
 }
