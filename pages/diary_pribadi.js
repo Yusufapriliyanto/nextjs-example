@@ -37,9 +37,9 @@ export default function Home() {
       </nav>
 {/* Konten Halaman */}
       <div className={styles.grid_container}>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p1"> Konten-p1 </Linker> </div>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p2"> Konten-p2 </Linker> </div>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p3"> Konten-p3 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p1"> Diary-p1 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p2"> Diary-p2 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p3"> Diary-p3 </Linker> </div>
       </div>
 {/* Footer */}
       <div className="footer mt-auto py-3 bg-blue">

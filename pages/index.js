@@ -21,7 +21,7 @@ export default function Home() {
                 <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/diary_fiksi">Diary Fiksi</a>
+                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/diary_pribadi">Diary Pribadi</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/konten_fiksi">Konten Fiksi</a>
@@ -41,10 +41,11 @@ export default function Home() {
         <div className={styles.item1}> Katalog Konten Pilihan </div>
       </div>
 {/* Daftar Konten Fiksi*/}
+      <p> Daftar Diary Pribadi dan Konten Fiksi </p>
       <div className={styles.grid_container}>
-        <div className={styles.item1}> <Linker href="/diary_fiksi/p1"> Diary-p1 </Linker> </div>
-        <div className={styles.item1}> <Linker href="/diary_fiksi/p2"> Diary-p2 </Linker> </div>
-        <div className={styles.item1}> <Linker href="/diary_fiksi/p3"> Diary-p3 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p1"> Diary-p1 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p2"> Diary-p2 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/diary_pribadi/p3"> Diary-p3 </Linker> </div>
       </div>
       <div className={styles.grid_container}>
         <div className={styles.item1}> <Linker href="/konten_fiksi/p1"> Konten-p1 </Linker> </div>
