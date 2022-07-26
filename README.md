@@ -1,4 +1,4 @@
-My First Web Project. You can clone this repository to get the source code
+My First Web Project. You can copy this repository without credit me, because this repository is open source. If you want to clone or copy the whole source of this repository, please copy from "main" branch, because "master" branch have development source which may break site and not suitable for production.
 <br>
 
 Docs from Vercel: <br>
@@ -36,3 +36,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<br>
+Deployed by <img src="
