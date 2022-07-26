@@ -35,8 +35,8 @@ export default function Home() {
             </ul>
         </div>
       </nav>
-{/* Konten Diary*/}
-      <h3>Diary p2 (27 Juli 2022)</h3>
+{/* Konten Fiksi */}
+      <h3>Puisi Tak Berjudul #0</h3>
       <h3>Oleh: Yusuf Apriliyanto</h3>
     </div>
   )

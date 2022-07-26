@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </nav>
 {/* Konten Diary*/}
-      <h3>Diary p2 (27 Juli 2022)</h3>
+      <h3>Diary p0 (0 Januari 0000)</h3>
       <h3>Oleh: Yusuf Apriliyanto</h3>
     </div>
   )
