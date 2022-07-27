@@ -37,14 +37,14 @@ export default function Home() {
       </nav>
 {/* Konten Halaman */}
       <div className={styles.grid_container}>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p1"> Konten-p1 </Linker> </div>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p2"> Konten-p2 </Linker> </div>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p3"> Konten-p3 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/puisi/p1"> Puisi_tak_berjudul-p1 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/puisi/p2"> Puisi_tak_berjudul-p2 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/puisi/p3"> Puisi_tak_berjudul-p3 </Linker> </div>
       </div>
       <div className={styles.grid_container}>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p4"> Konten-p4 </Linker> </div>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p5"> Konten-p5 </Linker> </div>
-        <div className={styles.item1}> <Linker href="/konten_fiksi/p6"> Konten-p6 </Linker> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/novel/en"> Novel-english language </Linker> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/novel/ar"> Novel-arabic language </Linker> </div>
+        <div className={styles.item1}> <Linker href="/konten_fiksi/novel/id"> Novel-indonesian language </Linker> </div>
       </div>
 {/* Footer */}
       <div className="footer mt-auto py-3 bg-blue">
