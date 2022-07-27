@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
+import styles from '../../../styles/Home.module.css'
 import Linker from 'next/link'
 
 export default function Home() {
@@ -15,22 +15,22 @@ export default function Home() {
 {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light mx-auto">
         <div className="container-fluid">
-          <a className="navbar-brand" href="https://nextjs-example-yusufapriliyanto.vercel.app">Navbar</a>
+          <Linker className="navbar-brand" href="/">Navbar</Linker>
             <ul className="navbar-nav ms-auto mb-2">
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app">Home</a>
+                <Linker className={styles.Linker} href="/">Home</Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/diary_fiksi">Diary Fiksi</a>
+                <Linker className={styles.Linker} href="/diary_fiksi">Diary Fiksi</Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/konten_fiksi">Konten Fiksi</a>
+                <Linker className={styles.Linker} href="/konten_fiksi">Konten Fiksi</Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs.org/docs/">Dokumentasi NextJS </a>
+                <Linker className={styles.Linker} href="https://nextjs.org/docs/">Dokumentasi NextJS </Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/api/hello">Data Terkait Blog </a>
+                <Linker className={styles.Linker} href="/api/hello">Data Terkait Blog </Linker>
               </li>
             </ul>
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
 {/* Konten Fiksi */}
       <h3>Puisi Tak Berjudul #2</h3>
       <h3>Oleh: Yusuf Apriliyanto</h3>
-      <h3>Dibuat pada 26 Juli 2022</h3>
+      <h3>Dibuat pada 27 Juli 2022</h3>
     </div>
   )
 }

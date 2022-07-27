@@ -38,4 +38,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 <br>
 Deployed by <img src="https://raw.githubusercontent.com/Yusufapriliyanto/nextjs-example/main/public/vercel.svg">
-## Last Commit id (local/remote):12/10
+## Last Commit id (local/remote):13/10

@@ -15,22 +15,22 @@ export default function Home() {
 {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-light bg-light mx-auto">
         <div className="container-fluid">
-          <a className="navbar-brand" href="https://nextjs-example-yusufapriliyanto.vercel.app">Navbar</a>
+          <Linker className="navbar-brand" href="/">Navbar</Linker>
             <ul className="navbar-nav ms-auto mb-2">
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app">Home</a>
+                <Linker className={styles.Linker} href="/">Home</Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/diary_pribadi">Diary Pribadi</a>
+                <Linker className={styles.Linker} href="/diary_pribadi">Diary Pribadi</Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/konten_fiksi">Konten Fiksi</a>
+                <Linker className={styles.Linker} href="/konten_fiksi">Konten Fiksi</Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs.org/docs/">Dokumentasi NextJS </a>
+                <Linker className={styles.Linker} href="https://nextjs.org/docs/">Dokumentasi NextJS </Linker>
               </li>
               <li className="nav-item">
-                <a className="nav-link active ml-3" href="https://nextjs-example-yusufapriliyanto.vercel.app/api/hello">Data Terkait Blog </a>
+                <Linker className={styles.Linker} href="/api/hello">Data Terkait Blog </Linker>
               </li>
             </ul>
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
       </div>
 {/* Footer */}
       <div className="footer mt-auto py-3 bg-blue">
-        <a href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer" className="nav-item nav-link">
+        <a className={styles.Linker} href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" target="_blank" rel="noopener noreferrer">
           Powered by{' '}
           <span>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
